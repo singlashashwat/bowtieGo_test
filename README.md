@@ -1,10 +1,6 @@
 
 ## Available Scripts
 
-### `demo`
-
-https://needyunwelcomeelectricity--five-nine.repl.co/
-
 In the project directory, you can run:
 
 ### `npm i`
