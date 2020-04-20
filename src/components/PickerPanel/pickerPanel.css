@@ -1,0 +1,74 @@
+.list_style {
+    list-style: none;
+}
+.list_btn {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 0 8px;
+    box-sizing: border-box;
+    color: #0e1318;
+    height: 40px;
+    min-width: 120px;
+    width: 100%;
+    outline: none;
+}
+.list_box {
+    padding: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    line-height: 1.6;
+}
+.picker_panel_list_box_width {
+    width: 420px;
+}
+.list_title {
+    max-width: 100%;
+    font-family: BryantMedium;
+    font-size: 12pt;
+}
+.font_heading {
+    padding-left: 30px; font-size: 20px; width: 350px; text-align: left;
+}
+.check_icon {
+    width:20px;
+    height:20px;
+    display: none;
+}
+.show_check_icon{
+    display: block;
+}
+.label_container {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.lazyload-placeholder {
+    background-image: url(http://testing.joinprint.com.hk/images/icons/Spinner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+.disable_list_item {
+    cursor: default;
+    color: rgba(14,19,24,.45);
+}
+
+@media only screen and (max-width: 1000px) {
+    .list_title {
+        font-size:10pt;
+    }
+    .list_btn{
+        height:auto;
+    }
+    .picker_panel_list_box_width {
+        width: 200px;
+        line-height:1.2;
+    }
+    .font_heading{
+        padding:0;
+    }
+}
